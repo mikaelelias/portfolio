@@ -1,12 +1,14 @@
 * {
-    margin: 0 auto;
+    margin: 0;
     box-sizing: border-box;
 }
 
 .navegation {
     display: flex;
     align-items: center;
-    padding: 49px
+    justify-content: center;
+    padding: 49px;
+    height: 10rem;
 }
 
 .logo img {
@@ -25,6 +27,18 @@
 }
 
 .navegation-header a, img {
-    margin-right: 1rem;
+    margin-right: 1.5rem;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main img {
+    width: 10rem;
 }
 
