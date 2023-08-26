@@ -1,0 +1,30 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.navegation {
+    display: flex;
+    align-items: center;
+    padding: 49px
+}
+
+.logo img {
+    width: 97px;
+    height: 59px;
+    flex-shrink: 0;
+}
+
+.navegation img {
+    height: 1.8rem;
+}
+
+.navegation-header {
+    display: flex;
+    align-items: center;
+}
+
+.navegation-header a, img {
+    margin-right: 1rem;
+}
+
