@@ -1,6 +1,8 @@
 * {
     margin: 0;
+    padding: 0; 
     box-sizing: border-box;
+    
 }
 
 .navegation {
@@ -12,20 +14,18 @@
 
 .logo-wrap img {
     width: 97px;
-    height: 59px;
-    flex-shrink: 0;
 }
 
-.navegation img {
+.navigation img {
     height: 1.8rem;
 }
 
-.navegation-header {
+.navigation-header {
     display: flex;
     align-items: center;
 }
 
-.navegation-header a,
+.navigation-header a,
 img {
     margin-right: 1.5rem;
     text-decoration: none;
