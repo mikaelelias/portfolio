@@ -2,3 +2,52 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.navegation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10rem;
+}
+
+.logo img {
+    width: 97px;
+    height: 59px;
+    flex-shrink: 0;
+}
+
+.navegation img {
+    height: 1.8rem;
+}
+
+.navegation-header {
+    display: flex;
+    align-items: center;
+}
+
+.navegation-header a,
+img {
+    margin-right: 1.5rem;
+    text-decoration: none;
+}
+
+.presentation {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.text {
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    letter-spacing: -1px;
+    color: #42446E;
+}
+
+
+.presentation img {
+    width: 10rem;
+}
