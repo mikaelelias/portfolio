@@ -10,7 +10,7 @@
     height: 10rem;
 }
 
-.logo img {
+.logo-wrap img {
     width: 97px;
     height: 59px;
     flex-shrink: 0;
