@@ -10,11 +10,6 @@
 
 }
 
-.container {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-}
-
 .navigation {
     display: flex;
     align-items: center;
@@ -47,11 +42,13 @@
 
 
 .presentation {
-    margin-top: 13.7rem;
+    margin-top: 245px;
+    margin-left: 177px;
+    margin-right: 219px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem;
+    gap: 219px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -70,6 +67,7 @@
     font-style: normal;
     letter-spacing: -1px;
     color: #42446E;
+    font-size: 58px;
 }
 
 
