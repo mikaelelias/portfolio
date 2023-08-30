@@ -10,6 +10,11 @@
 
 }
 
+body {
+    display: flex;
+    justify-content: center;
+}
+
 .navigation {
     display: flex;
     align-items: center;
@@ -40,13 +45,14 @@
 
 .presentation {
     display: flex;
-    width: 1204px;
+    max-width: 1204px;
     height: 350px;
+    justify-content: center;
+    align-items: center;
     margin-left: 193px;
     margin-right: 203px;
     padding-top: 19px;
-    justify-content: center;
-    align-items: center;
+    
     gap: 219px;
     font-family: 'Poppins', sans-serif;
 }
