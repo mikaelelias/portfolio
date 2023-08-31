@@ -6,7 +6,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -14,11 +13,12 @@ body {
     justify-content: center;
 }
 
+
 .navigation {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 41px 230px 177px;
+    margin: 41px 230px 177px; /* qual é o motivo de desalinhar o header? */
     font-family: DM Sans;
     font-size: 20px;
     font-style: normal;
@@ -34,6 +34,7 @@ body {
 .navigation-header {
     display: flex;
     align-items: center;
+    margin-top: 41px;
 }
 
 .navigation-header a {
@@ -51,7 +52,6 @@ body {
 .presentation {
     display: flex;
     max-width: 1204px;
-    height: 350px;
     justify-content: center;
     align-items: center;
     margin: 19px 203px 193px;
