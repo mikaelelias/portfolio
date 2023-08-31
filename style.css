@@ -13,12 +13,16 @@ body {
     justify-content: center;
 }
 
+.container {
+    max-width: 1204px;
+}
+
 
 .navigation {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 41px 230px 177px; /* qual é o motivo de desalinhar o header? */
+    margin-bottom: 230px;
     font-family: DM Sans;
     font-size: 20px;
     font-style: normal;
@@ -52,10 +56,9 @@ body {
 .presentation {
     display: flex;
     max-width: 1204px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 19px 203px 193px;
-    gap: 219px;
+    width: 100vw;
     font-family: 'Poppins', sans-serif;
 }
 
