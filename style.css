@@ -131,9 +131,9 @@ body {
 .icons-tech {
     display: grid;    
     margin-top: 140px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 90px;
-    margin-bottom: 206px;
+    grid-template-columns: repeat(6, 1fr); /* limpeza de codigo */
+    gap: 100px; /* analisar as medidas do figma */
+    margin-bottom: 206px; /* retirar para continuar a proxima sessão */
 }
 
 .loader {
