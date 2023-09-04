@@ -17,7 +17,6 @@ body {
     max-width: 1204px;
 }
 
-
 .navigation {
     display: flex;
     align-items: center;
@@ -84,10 +83,18 @@ body {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.profile-wrap {
+    background: linear-gradient(#E70FAA, #00C0FD);
+    border-radius: 50%;
+    padding-top: 0px 3px;
+    overflow: hidden;
+}
 
 .presentation img {
     width: 349px;
-    border-radius: 50%;
-    background: linear-gradient(#E70FAA, #00C0FD);
-    padding-top: 6px;
+    filter: grayscale(1);
+    cursor: pointer;
+    position: relative;
+    top: 6px;
+    overflow: hidden;
 }
