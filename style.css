@@ -17,7 +17,6 @@ body {
     max-width: 1204px;
 }
 
-
 .navigation {
     display: flex;
     align-items: center;
@@ -84,10 +83,84 @@ body {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.profile-wrap {
+    background: linear-gradient(#E70FAA, #00C0FD);
+    border-radius: 50%;
+    padding-top: 0px 3px;
+    overflow: hidden;
+}
 
 .presentation img {
     width: 349px;
-    border-radius: 50%;
-    background: linear-gradient(#E70FAA, #00C0FD);
-    padding-top: 6px;
+    filter: grayscale(1);
+    cursor: pointer;
+    position: relative;
+    top: 6px;
+    overflow: hidden;
+}
+
+.technologies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 385px;
+}
+
+.text-technologies h2 {
+    color: #42446E;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.text-technologies p {
+    color: var(--dark-content, #666);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 49px;
+}
+
+.icons-tech {
+    display: grid;    
+    margin-top: 140px;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 100px; 
+}
+
+.logo-npm {
+    width: 120px;
+    height: 119px;
+}
+
+.icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    max-width: 120px;
+    height: 100px;
+}
+
+.txt-hidden {
+    display: none;
+    color: #42446E;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.icon-box:hover .txt-hidden {
+    display: block;
+    opacity: 0.7;
 }
