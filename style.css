@@ -133,7 +133,6 @@ body {
     margin-top: 140px;
     grid-template-columns: repeat(4, 1fr); 
     gap: 100px; 
-    margin-bottom: 206px; /* retirar para continuar a proxima sessão */
 }
 
 .logo-npm {
