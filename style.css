@@ -131,9 +131,9 @@ body {
 }
 
 .icons-tech {
-    display: grid;    
-    grid-template-columns: repeat(4, 1fr); 
-    gap: 100px; 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
 }
 
 .logo-npm {
@@ -170,10 +170,11 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 225px;
 }
 
 .projects .card {
-    width: 375px;    
+    width: 375px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20);
@@ -228,3 +229,28 @@ body {
     width: 20px;
     margin-right: 10px;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #42446E;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+footer .infor {
+    display: flex;
+    align-items: center;
+}
+
+footer .infor p {
+    margin-right: 64px;
+}
+
+footer .infor a {
+    padding: 20px;
+}
+
