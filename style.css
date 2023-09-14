@@ -230,8 +230,9 @@ body {
     margin-right: 10px;
 }
 
-footer .information-footer {
+.information-footer {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     color: #42446E;
     font-family: DM Sans;
@@ -240,22 +241,24 @@ footer .information-footer {
     font-weight: 400;
 }
 
-footer .information-footer .infor {
+.information-footer .contacts-foolter {
     display: flex;
     align-items: center;
     margin-bottom: 62px;
+    justify-content: space-between;
 }
 
-footer .information-footer .infor p {
-    gap: 63px;
-    margin-right: 48px;
+.information-footer .contacts-foolter .content-foolter {
+    display: flex;
+    gap: 20px;
 }
 
-footer .information-footer .infor a {
-    margin-left: 20px;
+.information-footer .contacts-foolter .content-foolter .text-footer {
+    margin-right: 63px;
 }
 
-footer .navigation-footer {
+
+.navigation-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -263,7 +266,7 @@ footer .navigation-footer {
     margin-bottom: 60px;
 }
 
-footer .navigation-footer .navigation-end a {
+.navigation-footer .navigation-end .link-footer {
     font-family: DM Sans;
     font-size: 18px;
     font-style: normal;
@@ -272,21 +275,21 @@ footer .navigation-footer .navigation-end a {
     margin-right: 56px;
 }
 
-footer .navigation-footer .division hr{
+.navigation-footer .division {
     stroke-width: 2px;
     stroke: var(--dark-content, #666);
     opacity: 0.3;
     margin-bottom: 59px;
 }
 
-footer .navigation-footer .credit {
+.navigation-footer .credit {
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
 }
 
-footer .navigation-footer .credit .highlight-footer {
+.navigation-footer .credit .highlight-footer {
     background: var(--gradient-heading, linear-gradient(90deg, #13B0F5 2.60%, #E70FAA 100%));
     background-clip: text;
     -webkit-background-clip: text;
