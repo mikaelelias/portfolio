@@ -241,19 +241,19 @@ body {
     font-weight: 400;
 }
 
-.information-footer .contacts-foolter {
+.information-footer .contacts-footer {
     display: flex;
     align-items: center;
     margin-bottom: 62px;
     justify-content: space-between;
 }
 
-.information-footer .contacts-foolter .content-foolter {
+.information-footer .contacts-footer .content-footer {
     display: flex;
     gap: 20px;
 }
 
-.information-footer .contacts-foolter .content-foolter .text-footer {
+.information-footer .contacts-footer .content-footer .text-footer {
     margin-right: 63px;
 }
 
@@ -282,14 +282,14 @@ body {
     margin-bottom: 59px;
 }
 
-.navigation-footer .credit {
+.navigation-footer .copyright {
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
 }
 
-.navigation-footer .credit .highlight-footer {
+.navigation-footer .copyright .highlight-footer {
     background: var(--gradient-heading, linear-gradient(90deg, #13B0F5 2.60%, #E70FAA 100%));
     background-clip: text;
     -webkit-background-clip: text;
