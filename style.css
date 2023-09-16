@@ -63,7 +63,7 @@ body {
 }
 
 .highlight {
-    background: var(--gradient-heading, linear-gradient(90deg, #13B0F5 2.60%, #E70FAA 100%));
+    background: linear-gradient(90deg, #13B0F5 2.60%, #E70FAA 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -120,7 +120,7 @@ body {
 }
 
 .section-description {
-    color: var(--dark-content, #666);
+    color:#666;
     text-align: center;
     font-family: Poppins;
     font-size: 32px;
@@ -248,25 +248,24 @@ body {
     justify-content: space-between;
 }
 
-.information-footer .contacts-footer .content-footer {
+.information-footer .content-footer {
     display: flex;
     gap: 20px;
 }
 
-.information-footer .contacts-footer .content-footer .text-footer {
+.information-footer .text-footer {
     margin-right: 63px;
 }
 
 
-.navigation-footer {
+.information-footer .navigation-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 56px; /* Pq não aplicou o margin-bottom?*/
     margin-bottom: 60px;
 }
 
-.navigation-footer .navigation-end .link-footer {
+.information-footer .link-footer {
     font-family: DM Sans;
     font-size: 18px;
     font-style: normal;
@@ -275,22 +274,22 @@ body {
     margin-right: 56px;
 }
 
-.navigation-footer .division {
+.information-footer .separator {
     stroke-width: 2px;
-    stroke: var(--dark-content, #666);
+    stroke: #666;
     opacity: 0.3;
-    margin-bottom: 59px;
+    margin-bottom: 56px;
 }
 
-.navigation-footer .copyright {
+.information-footer .copyright {
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
 }
 
-.navigation-footer .copyright .highlight-footer {
-    background: var(--gradient-heading, linear-gradient(90deg, #13B0F5 2.60%, #E70FAA 100%));
+.information-footer .highlight-footer {
+    background: linear-gradient(90deg, #13B0F5 2.60%, #E70FAA 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
