@@ -58,11 +58,19 @@ body {
     max-width: 708px;
 }
 
-.work-experience,
-.education {
+.work-experience {
     width: 708px;
     margin-bottom: 30px;
     margin-top: 38px;
+}
+
+.container-about .about-me {
+    color: #666;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 .container-about h1,
@@ -77,15 +85,30 @@ body {
     margin-bottom: 38px;
 }
 
-.container-about p,
-.work-experience p {
+.container-about h2 {
     color: #666;
     font-family: Poppins;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px;
-    margin-bottom: 38px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.container-about .work-experience p {
+    color: #A7A7A7;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.container-about .cx1,
+.cx2,
+.cx3 {
+    display: flex;
+    align-items: center;
 }
 
 .container-about .work-experience,
@@ -121,18 +144,90 @@ body {
     border: none;
 }
 
+.separator {
+    margin-bottom: 38px;
+}
+
 .container-about .companies {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color:#A7A7A7;
+    color: #A7A7A7;
     font-family: Poppins;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 1px;
-    
 }
 
 
+
+.information-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #42446E;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.information-footer .contacts-footer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 62px;
+    justify-content: space-between;
+    margin-top: 203px;
+}
+
+.information-footer .content-footer {
+    display: flex;
+    gap: 20px;
+}
+
+.information-footer .text-footer {
+    margin-right: 63px;
+}
+
+
+.information-footer .navigation-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.information-footer .link-footer {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 56px;
+}
+
+.information-footer .separator {
+    stroke-width: 2px;
+    stroke: #666;
+    opacity: 0.3;
+    margin-bottom: 56px;
+}
+
+.information-footer .copyright {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.information-footer .highlight-footer {
+    background: linear-gradient(90deg, #13B0F5 2.60%, #E70FAA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    font-style: normal;
+    letter-spacing: -1px;
+}
