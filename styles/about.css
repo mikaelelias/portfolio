@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1193px;
+    max-width: 1204px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 124px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.logo-wrap img {
+    width: 97px;
+    height: 59px;
+    margin-top: 41px;
+}
+
+.navigation-header {
+    display: flex;
+    align-items: center;
+    margin-top: 67px;
+}
+
+.navigation-header a {
+    margin-right: 24px;
+    text-decoration: none;
+    color: #666;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.container-about {
+    max-width: 708px;
+}
+
+.work-experience {
+    width: 708px;
+    margin-bottom: 30px;
+    margin-top: 38px;
+}
+
+.container-about .about-me {
+    color: #666;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.container-about h1,
+.work-experience h1 {
+    color: #42446E;
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+    margin-bottom: 38px;
+}
+
+.container-about h2 {
+    color: #666;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.container-about .work-experience p {
+    color: #A7A7A7;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.container-about .cx1,
+.cx2,
+.cx3 {
+    display: flex;
+    align-items: center;
+}
+
+.container-about .work-experience,
+.education {
+    color: #666;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.container-about .function-work {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3.8px;
+}
+
+.container-about .btn-full-time {
+    background: #D7FFE0;
+    width: 84px;
+    height: 24px;
+    color: #018C0F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    border-radius: 100px;
+    border: none;
+}
+
+.separator {
+    margin-bottom: 38px;
+}
+
+.container-about .companies {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #A7A7A7;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+
+
+.information-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #42446E;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.information-footer .contacts-footer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 62px;
+    justify-content: space-between;
+    margin-top: 203px;
+}
+
+.information-footer .content-footer {
+    display: flex;
+    gap: 20px;
+}
+
+.information-footer .text-footer {
+    margin-right: 63px;
+}
+
+
+.information-footer .navigation-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.information-footer .link-footer {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 56px;
+}
+
+.information-footer .separator {
+    stroke-width: 2px;
+    stroke: #666;
+    opacity: 0.3;
+    margin-bottom: 56px;
+}
+
+.information-footer .copyright {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.information-footer .highlight-footer {
+    background: linear-gradient(90deg, #13B0F5 2.60%, #E70FAA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    font-style: normal;
+    letter-spacing: -1px;
+}
