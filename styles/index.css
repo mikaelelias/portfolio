@@ -208,7 +208,7 @@ body {
 .projects .img-wrap {
     width: 100%;
     height: 260px;
-    background-image: url(/images/rectangle_4.png);
+    background-image: url(../images/rectangle_4.png);
     background-repeat: no-repeat;
 }
 
