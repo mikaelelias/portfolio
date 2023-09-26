@@ -30,7 +30,7 @@ body {
     line-height: 26px;
 }
 
-.logo-wrap img {
+.logo-wrap .logo-img {
     width: 97px;
     height: 59px;
     margin-top: 41px;
@@ -42,7 +42,7 @@ body {
     margin-top: 41px;
 }
 
-.navigation-header a {
+.navigation-header .navigation-link {
     margin-right: 24px;
     text-decoration: none;
     color: #666;
