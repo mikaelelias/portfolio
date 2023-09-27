@@ -10,7 +10,7 @@
 
 .container-about .about-me {
     color: #666;
-    font-family: Poppins;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -20,7 +20,7 @@
 .container-about h1,
 .work-experience h1 {
     color: #42446E;
-    font-family: Poppins;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 42px;
     font-style: normal;
     font-weight: 700;
@@ -31,7 +31,7 @@
 
 .container-about h2 {
     color: #666;
-    font-family: Poppins;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -41,7 +41,7 @@
 
 .container-about .work-experience p {
     color: #A7A7A7;
-    font-family: Poppins;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -58,7 +58,7 @@
 .container-about .work-experience,
 .education {
     color: #666;
-    font-family: Poppins;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -79,7 +79,7 @@
     height: 24px;
     color: #018C0F;
     text-align: center;
-    font-family: Poppins;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 9px;
     font-style: normal;
     font-weight: 600;
@@ -97,7 +97,7 @@
     align-items: center;
     justify-content: space-between;
     color: #A7A7A7;
-    font-family: Poppins;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
