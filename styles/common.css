@@ -123,3 +123,9 @@ body {
     font-style: normal;
     letter-spacing: -1px;
 }
+
+@media (max-width: 1400px) {
+    .container {
+        max-width: 80%; 
+    }
+}
