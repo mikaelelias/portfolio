@@ -1,5 +1,6 @@
 .presentation {
     display: flex;
+    width: 100vw;
     max-width: 1204px;
     justify-content: space-between;
     align-items: center;
@@ -175,17 +176,18 @@
     margin-right: 10px;
 }
 
+
 @media (max-width: 768px) {
     .presentation {
         max-width: 95%;
-        
     }
-    .text {
+
+    .presentation .text {
         font-size: 30px;
     }
 
-    .presentation img {
-        width: 275px; 
+    .presentation .profile-wrap img {
+       width: 280px; /* colocar uma .class nessa imagem */
     }
 
     .icons-tech {
