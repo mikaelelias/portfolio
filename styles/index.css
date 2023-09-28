@@ -197,4 +197,8 @@
     .projects .wrap-cards {
             justify-content: space-around;
         }
+
+    .information-footer {
+        font-size: 14px;
+    }
 }
