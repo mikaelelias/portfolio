@@ -175,3 +175,24 @@
     margin-right: 10px;
 }
 
+@media (max-width: 768px) {
+    .presentation {
+        max-width: 95%;
+        
+    }
+    .text {
+        font-size: 30px;
+    }
+
+    .presentation img {
+        width: 275px; 
+    }
+
+    .icons-tech {
+        max-width: 80%;
+    }
+
+    .projects .wrap-cards {
+            justify-content: space-around;
+        }
+}
