@@ -6,16 +6,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 20px;
 }
 
 body {
     display: flex;
     justify-content: center;
+    width: 100vw;
 }
 
 .container {
-    width: 1000vh;
+    width: 100%;
     max-width: 1204px;
+    padding: 0 20px;
+    box-sizing: content-box;
 }
 
 .navigation {
@@ -48,7 +52,7 @@ body {
     color: #666;
     text-align: center;
     font-family: DM Sans, Arial, Helvetica, sans-serif;
-    font-size: 1.25rem;
+    font-size: 1em;
     font-style: normal;
     font-weight: 500;
     line-height: 26px;
@@ -122,12 +126,4 @@ body {
     font-size: 1.12rem;
     font-style: normal;
     letter-spacing: -1px;
-}
-
-@media (max-width: 1400px) {
-    .container {
-        width: 100vw;
-        max-width: 90%; 
-    }  
-
 }
