@@ -58,6 +58,10 @@ body {
     line-height: 26px;
 }
 
+#navigation-link-bi-list {
+    display: none;
+}
+
 .information-footer {
     display: flex;
     flex-direction: column;
@@ -143,3 +147,37 @@ body {
             flex-direction: column;
         }
     }
+
+@media (max-width: 746px) {
+    .information-footer {
+        margin-top: 87px;
+    }
+
+    .text-footer {
+        display: none;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 599px) {
+    .navigation {
+        justify-content: space-between;
+        margin-bottom: 136px;
+    }
+
+    #navigation-link-text {
+        display: none;
+    }
+
+    #navigation-link-bi-list {
+        display: block;
+    }
+
+    .profile-wrap {
+        margin-bottom: 69px;
+    }
+
+    .technologies {
+        margin-top: 320px;
+    }
+}
