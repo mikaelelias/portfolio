@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,700&display=swap');
@@ -77,7 +78,6 @@ body {
 
 .information-footer .contacts-footer {
     display: flex;
-    align-items: center;
     margin-bottom: 62px;
     justify-content: space-between;
 }
@@ -89,12 +89,8 @@ body {
 
 .text-information-footer {
     display: flex;
+    gap: 20px;
 }
-
-.information-footer .text-footer {
-    margin-right: 63px;
-}
-
 
 .information-footer .navigation-footer {
     display: flex;
@@ -140,6 +136,7 @@ body {
 @media (max-width: 900px) {
     .contacts-footer {
         flex-direction: column;
+        align-items: center;
     }
 
     .logo-footer {
@@ -156,12 +153,17 @@ body {
 @media (max-width: 692px) {   
         .content-footer {
             flex-direction: column;
+            align-items: center;
         }
     
         .text-information-footer {
-            flex-direction: column;
-        }      
+            display: flex;
+            
+            align-items: center;
+        } 
+               
     }    
+
 
 @media (max-width: 599px) {
     .navigation {
@@ -183,5 +185,10 @@ body {
 
     .technologies {
         margin-top: 320px;
+    }
+
+    .text-information-footer {
+        flex-direction: column;
+        margin-bottom: 6%;
     }
 }
