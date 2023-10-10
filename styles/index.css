@@ -215,3 +215,9 @@
         font-size: 0.87rem;
     }
 }
+
+@media (max-width: 575px) {  
+    .icons-tech {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
