@@ -233,10 +233,6 @@
         display: none;
     }
 
-    .presentation {
-        margin-top: 130px;
-    }
-
     .wrap-cards {
         max-width: 100%;
     }
@@ -245,3 +241,5 @@
         margin-bottom: 5px;
     }
 }
+
+
