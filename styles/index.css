@@ -194,6 +194,14 @@
     }
 }
 
+@media (max-width: 720px) {
+    .txt-hidden {
+        display: block;
+        opacity: 1;
+        margin-top: 10px;
+    }
+}
+
 @media (max-width: 768px) {
     .presentation {
         flex-direction: column-reverse;
