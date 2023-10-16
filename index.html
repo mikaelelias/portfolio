@@ -3,9 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Explore my personal portfolio of front-end development projects. Discover my work as a developer, including websites and web applications I've created.">
+    <meta name="description"
+        content="Explore my personal portfolio of front-end development projects. Discover my work as a developer, including websites and web applications I've created.">
     <meta name="author" content="Mikael Elias">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Mikael Elias - Home</title>
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/index.css">
@@ -19,15 +20,21 @@
                     <a href="index.html"><img src="images/logo 1.svg" class="logo-img" alt="logo"></a>
                 </div>
                 <div class="navigation-header">
-                    <a class="navigation-link" href="index.html">Home</a>
-                    <a class="navigation-link" href="about.html">About</a>
-                    <a class="navigation-link" href="contact.html">Contact</a>
+                    <a class="navigation-link-text" href="index.html">Home</a>
+                    <a class="navigation-link-text" href="about.html">About</a>
+                    <a class="navigation-link-text" href="contact.html">Contact</a>
                     <a class="navigation-link" href="https://github.com/mikaelelias"><img src="images/Vector.svg"
                             alt="logo-gthub"></a>
                     <a class="navigation-link" href=""><img src="images/ant-design_twitter-circle-filled.svg"
                             alt="logo-twitter"></a>
                     <a class="navigation-link" href="https://www.linkedin.com/in/mikael-elias-64973b218/"><img
                             src="images/entypo-social_linkedin-with-circle.svg" alt="logo-linkedin"></a>
+                    <a class="navigation-link-bi-list">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                            class="bi bi-list" viewBox="0 0 16 16" alt="bi-list">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg></a>
                 </div>
             </nav>
         </header>
@@ -262,13 +269,19 @@
                 </div>
 
                 <div class="content-footer">
-                    <p class="text-footer">+55 83 988970601</p>
-                    <p class="text-footer">mikael.mesg@gmail.com</p>
-                    <a class="icon-footer" href="https://github.com/mikaelelias"><img src="images/Vector (2).svg" alt="logo-gthub"></a>
-                    <a class="icon-footer" href=""><img src="images/ant-design_twitter-circle-filled (1).svg"
-                            alt="logo-twitter"></a>
-                    <a class="icon-footer" href=""><img src="images/entypo-social_linkedin-with-circle (1).svg"
-                            alt="logo-linkedin"></a>
+                    <div class="text-information-footer">
+                        <p class="text-footer">+55 83 988970601</p>
+                        <p class="text-footer">mikael.mesg@gmail.com</p>
+                    </div>
+                    
+                    <div class="icon-information-footer">
+                        <a class="icon-footer" href="https://github.com/mikaelelias"><img src="images/Vector (2).svg"
+                                alt="logo-gthub"></a>
+                        <a class="icon-footer" href=""><img src="images/ant-design_twitter-circle-filled (1).svg"
+                                alt="logo-twitter"></a>
+                        <a class="icon-footer" href=""><img src="images/entypo-social_linkedin-with-circle (1).svg"
+                                alt="logo-linkedin"></a>
+                    </div>
                 </div>
             </div>
 
@@ -284,8 +297,8 @@
                 </nav>
 
                 <div class="copyright">
-                    <p>Designed by <a href="https://github.com/pavanmg007" class="highlight-footer" href=>Pavan MG</a> and built by <span
-                            class="highlight-footer">Mikael Elias</span></p>
+                    <p>Designed by <a href="https://github.com/pavanmg007" class="highlight-footer" href=>Pavan MG</a>
+                        and built by <span class="highlight-footer">Mikael Elias</span></p>
                 </div>
             </div>
         </footer>

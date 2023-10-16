@@ -1,26 +1,15 @@
 .presentation {
     display: flex;
-    max-width: 1204px;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     font-family: 'Poppins', sans-serif, Arial, Helvetica, sans-serif;
-}
-
-.highlight {
-    background: linear-gradient(90deg, #13B0F5 2.60%, #E70FAA 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 58px;
-    font-style: normal;
-    letter-spacing: -1px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 385px;
 }
 
 .text {
     font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-size: 58px;
+    font-size: 2.4rem;
     font-style: normal;
     font-weight: 700;
     letter-spacing: -1px;
@@ -28,11 +17,24 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.highlight {
+    background: linear-gradient(90deg, #13B0F5 2.60%, #E70FAA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.4rem;
+    font-style: normal;
+    letter-spacing: -1px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .profile-wrap {
     background: linear-gradient(#E70FAA, #00C0FD);
     border-radius: 50%;
-    padding-top: 0px 3px;
+    padding: 1px 2px 0px 1px;
+    min-width: 349px;
     overflow: hidden;
+    width: 249px;
 }
 
 .presentation img {
@@ -42,6 +44,7 @@
     position: relative;
     top: 6px;
     overflow: hidden;
+    width: 100%
 }
 
 .technologies {
@@ -49,7 +52,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 385px;
     margin-bottom: 214px;
 }
 
@@ -57,10 +59,10 @@
     color: #42446E;
     text-align: center;
     font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-size: 48px;
+    font-size: 2.4rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 26px;
+    line-height: 2.4rem;
     margin-bottom: 49px;
 }
 
@@ -68,10 +70,10 @@
     color:#666;
     text-align: center;
     font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-size: 32px;
+    font-size: 1.9rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 1.9rem;
     margin-bottom: 140px;
 }
 
@@ -101,7 +103,7 @@
     color: #42446E;
     text-align: center;
     font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     opacity: 1;
     transition: opacity 0.3s ease;
 }
@@ -112,9 +114,9 @@
 }
 
 .projects .wrap-cards {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
     margin-bottom: 225px;
 }
 
@@ -124,7 +126,6 @@
     overflow: hidden;
     box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20);
     font-family: Poppins, Arial, Helvetica, sans-serif;
-    margin-bottom: 62px;
 }
 
 .projects .content {
@@ -137,16 +138,16 @@
 }
 
 .projects .title {
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 .projects .discription {
-    font-size: 18px;
+    font-size: 0.9rem;
 }
 
 .projects .tech-stack {
     color: #42446E;
-    font-size: 16px;
+    font-size: 0.8rem;
     margin-bottom: 21px;
 }
 
@@ -159,6 +160,9 @@
 
 .projects .links {
     display: flex;
+}
+.projects .links .link-title {
+    font-size: 0.8rem;
 }
 
 .projects .link {
@@ -174,4 +178,68 @@
     width: 20px;
     margin-right: 10px;
 }
+
+@media (max-width: 1313px) {
+    .projects .wrap-cards {
+        grid-template-columns: repeat(2, 1fr);
+        width: 795px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 890px) {
+    .projects .wrap-cards {
+        grid-template-columns: repeat(1, 1fr);
+        width: 375px;
+    }
+}
+
+@media (max-width: 768px) {
+    .presentation {
+        flex-direction: column-reverse;
+    }
+
+    .presentation .profile-wrap {
+        width: 60vw;
+    }
+
+    .icons-tech {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .projects .wrap-cards {
+        justify-content: space-around;
+    }
+
+    .information-footer {
+        font-size: 0.87rem;
+    }
+}
+
+@media (max-width: 575px) {  
+    .icons-tech {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 532px) {
+    .copyright {
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 432px) {
+    .navigation-end {
+        display: none;
+    }
+
+    .wrap-cards {
+        max-width: 100%;
+    }
+
+    .presentation {
+        margin-bottom: 5px;
+    }
+}
+
 
