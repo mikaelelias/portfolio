@@ -20,6 +20,7 @@ body {
     max-width: 1204px;
     padding: 0 20px;
     box-sizing: content-box;
+    margin: 0 auto;
 }
 
 .navigation {
