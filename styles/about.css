@@ -110,6 +110,14 @@
     .btn-full-time {
         display: none;
     }
+}
 
-    
+@media(max-width: 541px) {
+    .work-experience .companies,
+    .education .companies {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        align-items: flex-start;
+    }
 }
