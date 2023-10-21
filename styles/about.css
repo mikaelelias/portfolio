@@ -121,3 +121,9 @@
         align-items: flex-start;
     }
 }
+
+@media(max-width: 432px) {
+    .about-me {
+        margin-top: 100px;
+    }
+}
