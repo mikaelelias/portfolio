@@ -1,9 +1,9 @@
 .container-about {
-    max-width: 708px;
+    max-width: 748px;
+    padding: 0 20px;
 }
 
 .work-experience {
-    width: 708px;
     margin-bottom: 30px;
     margin-top: 38px;
 }
@@ -39,7 +39,8 @@
     letter-spacing: 1px;
 }
 
-.container-about .work-experience p {
+.container-about .work-experience p,
+.container-about .education p {
     color: #A7A7A7;
     font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 0.75rem;
@@ -49,8 +50,8 @@
 }
 
 .container-about .cx1,
-.cx2,
-.cx3 {
+.cx2
+{
     display: flex;
     align-items: center;
 }
@@ -105,3 +106,24 @@
     letter-spacing: 1px;
 }
 
+@media(max-width: 790px) {
+    .btn-full-time {
+        display: none;
+    }
+}
+
+@media(max-width: 541px) {
+    .work-experience .companies,
+    .education .companies {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        align-items: flex-start;
+    }
+}
+
+@media(max-width: 432px) {
+    .about-me {
+        margin-top: 100px;
+    }
+}
