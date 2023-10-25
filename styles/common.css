@@ -35,6 +35,14 @@ body {
     line-height: 26px;
 }
 
+.close-icon {
+    display: none;
+    width: 30px;
+    height: 30px;
+}
+
+.
+
 .logo-wrap .logo-img {
     width: 97px;
     height: 59px;
@@ -164,7 +172,6 @@ body {
 
 }
 
-
 @media (max-width: 599px) {
     .navigation {
         justify-content: space-between;
@@ -191,6 +198,9 @@ body {
         flex-direction: column;
         margin-bottom: 6%;
     }
+
+
+
 }
 
 @media (max-width: 575px) {
