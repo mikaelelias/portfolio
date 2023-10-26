@@ -1,4 +1,4 @@
-const open_modal = document.querySelector('.open-icon');
+const open_modal = document.querySelector('.bi-bi-list');
 const close_modal = document.querySelector('.close-icon');
 
 open_modal.addEventListener('click', function() {

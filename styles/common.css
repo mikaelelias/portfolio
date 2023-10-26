@@ -41,7 +41,6 @@ body {
     height: 30px;
 }
 
-
 .logo-wrap .logo-img {
     width: 97px;
     height: 59px;
@@ -197,9 +196,6 @@ body {
         flex-direction: column;
         margin-bottom: 6%;
     }
-
-
-
 }
 
 @media (max-width: 575px) {
