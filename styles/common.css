@@ -52,6 +52,7 @@ body {
     margin-left: 79%;
     padding: 10px 17px;
     display: none;    
+    box-sizing: content-box;
 }
 
 .navigation-link-text-mobile {
@@ -253,4 +254,15 @@ body {
     .navigation-end {
         display: none;
     }
+
+    .nav-mobile-icons {
+        margin-top: 58px;
+    }   
 }
+
+@media (max-width: 432px) {
+    .nav-mobile-icons {
+        margin-left: 75%;
+    }   
+}
+
