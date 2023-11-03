@@ -264,5 +264,9 @@ body {
     .nav-mobile-icons {
         margin-left: 75%;
     }   
+    
+    .navigation {
+        margin-top: -25px;
+    }
 }
 
