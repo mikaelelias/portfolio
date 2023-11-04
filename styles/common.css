@@ -195,7 +195,7 @@ body {
 
 }
 
-@media (max-width: 599px) {
+@media (max-width: 640px) {
     .navigation {
         justify-content: space-between;
         margin-bottom: 136px;

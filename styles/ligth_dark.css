@@ -1,0 +1,39 @@
+.btn_toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 250px;
+}
+
+.btn_toggle p {
+    color: #666;
+    text-align: center;
+    font-family: DM Sans, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 20px;
+}
+
+.light_dark{
+    width: 50px;
+    height: 30px;
+    background: #cac8ca;
+    border-radius: 150px;
+    position: relative;
+    cursor: pointer;
+}
+
+.light_dark .toggle_dark_mode{
+    width: 32px;
+    height: 30px;
+    background-color: #575255;
+    border-radius: 50%;
+    transform: scale(.9);
+    position: absolute;
+}
+
+.light_dark.dark .toggle_dark_mode {
+    left: 18px;
+}
