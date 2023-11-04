@@ -1,24 +1,13 @@
 .btn_toggle {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
-    margin-bottom: 250px;
-}
-
-.btn_toggle p {
-    color: #666;
-    text-align: center;
-    font-family: DM Sans, Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26px;
-    padding: 20px;
 }
 
 .light_dark{
     width: 50px;
     height: 30px;
+    margin-top: 40px;
     background: #cac8ca;
     border-radius: 150px;
     position: relative;
@@ -55,7 +44,8 @@ body.dark .tech-stack {
     color: #ccc;
 }
 
-body.dark footer {
+body.dark footer,
+body.dark .link-footer,
+body.dark h1 {
     color: #ccc;
 }
-
