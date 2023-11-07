@@ -4,7 +4,7 @@
 }
 
 .work-experience {
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     margin-top: 38px;
 }
 
@@ -75,23 +75,8 @@
     margin-bottom: 20px;
 }
 
-.container-about .btn-full-time {
-    background: #D7FFE0;
-    width: 84px;
-    height: 24px;
-    color: #018C0F;
-    text-align: center;
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-size: 0.56rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 26px;
-    border-radius: 100px;
-    border: none;
-}
-
 .separator {
-    margin-bottom: 38px;
+    margin-bottom: 130px;
 }
 
 .container-about .companies {
@@ -105,12 +90,6 @@
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 1px;
-}
-
-@media(max-width: 790px) {
-    .btn-full-time {
-        display: none;
-    }
 }
 
 @media(max-width: 541px) {
