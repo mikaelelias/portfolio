@@ -1,4 +1,4 @@
-.contact-information .text-contact h1 {
+.contact-information .text-contact {
     color: #1E0E62;
     text-align: center;
     font-family: DM Sans, Arial, Helvetica, sans-serif;
@@ -24,22 +24,22 @@
 }
 
 @media (max-width: 863px) {
-    .contact-information .text-contact h1,
-    .contact-information .contact-email h2 {
+    .contact-information .text-contact .contact-information-title,
+    .contact-information .contact-email .contact-information-email {
         font-size: 50px;
     }
 }
 
 @media (max-width: 793px) {
-    .contact-information .text-contact h1,
-    .contact-information .contact-email h2 {
+    .contact-information .text-contact .contact-information-title,
+    .contact-information .contact-email .contact-information-email {
         font-size: 40px;
     }
 }
 
 @media (max-width: 618px) {
-    .contact-information .text-contact h1,
-    .contact-information .contact-email h2 {
+    .contact-information .text-contact .contact-information-title,
+    .contact-information .contact-email .contact-information-email {
         font-size: 30px;
     }
 }
@@ -51,8 +51,8 @@
 }
 
 @media (max-width: 492px) {
-    .contact-information .text-contact h1,
-    .contact-information .contact-email h2 {
+    .contact-information .text-contact .contact-information-title,
+    .contact-information .contact-email .contact-information-email {
         font-size: 25px;
     }
 }
