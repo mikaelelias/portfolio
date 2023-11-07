@@ -3,7 +3,7 @@
     padding: 0 20px;
 }
 
-.work-experience {
+.experience {
     margin-bottom: 80px;
     margin-top: 38px;
 }
@@ -18,7 +18,7 @@
 }
 
 .container-about h1,
-.work-experience h1 {
+.experience h1 {
     color: #42446E;
     font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 2.62rem;
@@ -39,7 +39,7 @@
     letter-spacing: 1px;
 }
 
-.container-about .work-experience p,
+.container-about .experience p,
 .container-about .education p {
     color: #A7A7A7;
     font-family: Poppins, Arial, Helvetica, sans-serif;
@@ -56,7 +56,7 @@
     align-items: center;
 }
 
-.container-about .work-experience,
+.container-about .experience,
 .education {
     color: #666;
     font-family: Poppins, Arial, Helvetica, sans-serif;
@@ -93,7 +93,7 @@
 }
 
 @media(max-width: 541px) {
-    .work-experience .companies,
+    .experience .companies,
     .education .companies {
         display: flex;
         flex-direction: column;
