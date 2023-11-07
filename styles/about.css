@@ -15,6 +15,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+    margin-bottom: 110px;
 }
 
 .container-about h1,
@@ -76,7 +77,7 @@
 }
 
 .separator {
-    margin-bottom: 130px;
+    margin-bottom: 110px;
 }
 
 .container-about .companies {

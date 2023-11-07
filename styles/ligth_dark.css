@@ -39,13 +39,30 @@ body.dark {
     transition: 0.5s;
 }
 
+body.dark .navigation {
+    background: #191919;
+}
+
 body.dark .content,
 body.dark .tech-stack {
-    color: #ccc;
+    color: #cccccc;
+}
+
+body.dark .technologies .txt-hidden {
+    color: #cccccc;
 }
 
 body.dark footer,
 body.dark .link-footer,
 body.dark h1 {
-    color: #ccc;
+    color: #cccccc;
+}
+
+body.dark .section-title {
+    color: #cccccc;
+}
+
+body.dark .navigation-link-text,
+body.dark .section-description {
+    color: #a7a7a7;
 }
