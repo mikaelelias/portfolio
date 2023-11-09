@@ -15,6 +15,7 @@
 }
 
 .light_dark .toggle_dark_mode{
+    display: flex;
     width: 32px;
     height: 30px;
     background-color: #575255;
@@ -23,15 +24,17 @@
     position: absolute;
     left: 0;
     transition: .5s;
+    background-color:rgb(116, 119, 119);
 }
 
 .light_dark.dark {
     background-color: aliceblue;
 }
 
-.light_dark.dark .toggle_dark_mode {
-    left: 18px;
-    background-color:rgb(116, 119, 119);
+.toggle_dark_mode img {
+    width: 20px;
+    padding: 3px;
+    margin-left: 3px;
 }
 
 body.dark {
