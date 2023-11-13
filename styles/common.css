@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 .container {
@@ -221,11 +222,25 @@ body {
         flex-direction: column;
         margin-bottom: 6%;
     }
+
+    .open-icon {
+        width: 30px;
+    }
+
+    .icon-moon {
+        margin-right: 20px
+    }
 }
 
 @media (max-width: 575px) {
     .container {
         max-width: 90%;
+    }
+}
+
+@media (max-width: 400px) {
+    .navigation-link {
+        width: 18px;
     }
 }
 

@@ -1,17 +1,13 @@
+.icon-moon {
+    width: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
 .btn_toggle {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-}
-
-.light_dark{
-    width: 50px;
-    height: 30px;
-    margin-top: 40px;
-    background: #cac8ca;
-    border-radius: 150px;
-    position: relative;
-    cursor: pointer;
 }
 
 .light_dark .toggle_dark_mode{
@@ -39,7 +35,8 @@ body.dark {
     transition: 0.5s;
 }
 
-body.dark .navigation {
+body.dark .navigation,
+.nav-mobile-icons {
     background: #191919;
 }
 
@@ -68,6 +65,8 @@ body.dark .section-title {
 }
 
 body.dark .navigation-link-text,
-body.dark .section-description {
+body.dark .section-description,
+body.dark .navigation-link-text-mobile {
     color: #a7a7a7;
 }
+
