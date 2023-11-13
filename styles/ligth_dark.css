@@ -10,24 +10,8 @@
     justify-content: center;
 }
 
-.light_dark .toggle_dark_mode{
-    width: 32px;
-    height: 30px;
-    background-color: #575255;
-    border-radius: 50%;
-    transform: scale(.9);
-    position: absolute;
-    left: 0;
-    transition: .5s;
-}
-
 .light_dark.dark {
     background-color: aliceblue;
-}
-
-.light_dark.dark .toggle_dark_mode {
-    left: 18px;
-    background-color:rgb(116, 119, 119);
 }
 
 body.dark {
@@ -36,7 +20,7 @@ body.dark {
 }
 
 body.dark .navigation,
-body.dark .nav-mobile-icons {
+.nav-mobile-icons {
     background: #191919;
 }
 
