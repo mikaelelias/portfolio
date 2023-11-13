@@ -36,11 +36,6 @@ body {
     line-height: 26px;
 }
 
-.mode_dark {
-    margin-top: 40px;
-    cursor: pointer;
-}
-
 .nav-mobile-icons {
     display: flex;
     flex-direction: column;
