@@ -29,11 +29,6 @@ body.dark .tech-stack {
     color: #cccccc;
 }
 
-
-body.dark .icon-box .icon-github {
-    background-image: url('../images/akar-icons_github-fill\ \(88x88\)\ tech\ dark.svg');
-}
-    
 body.dark .technologies .txt-hidden {
     color: #cccccc;
 }

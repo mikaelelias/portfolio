@@ -40,6 +40,7 @@
     letter-spacing: 1px;
 }
 
+.container-about .about-me p,
 .container-about .experience p,
 .container-about .education p {
     color: #A7A7A7;
