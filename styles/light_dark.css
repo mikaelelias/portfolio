@@ -1,0 +1,51 @@
+.icon-moon {
+    width: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn_toggle {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.light_dark.dark {
+    background-color: aliceblue;
+}
+
+body.dark {
+    background-color:  #191919;
+    transition: 0.5s;
+}
+
+body.dark .navigation,
+.nav-mobile-icons {
+    background: #191919;
+}
+
+body.dark .content,
+body.dark .tech-stack {
+    color: #cccccc;
+}
+
+body.dark .technologies .txt-hidden {
+    color: #cccccc;
+}
+
+body.dark footer,
+body.dark .link-footer,
+body.dark h1 {
+    color: #cccccc;
+}
+
+body.dark .section-title {
+    color: #cccccc;
+}
+
+body.dark .navigation-link-text,
+body.dark .section-description,
+body.dark .navigation-link-text-mobile {
+    color: #a7a7a7;
+}
+

@@ -26,3 +26,4 @@ function checkScreenSize() {
 
 checkScreenSize();
 window.addEventListener('resize', checkScreenSize);
+
