@@ -54,6 +54,7 @@ body {
     padding: 10px 17px;
     display: none;    
     box-sizing: content-box;
+    position: fixed;
 }
 
 .navigation-link-text-mobile {
