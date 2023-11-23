@@ -272,6 +272,7 @@ body {
 
     .nav-mobile-icons {
         margin-top: 58px;
+        background-color: #fdfafc;
     }   
 }
 
@@ -282,6 +283,7 @@ body {
     
     .navigation {
         margin-top: -25px;
+        background-color: #fdfafc;
     }
 }
 

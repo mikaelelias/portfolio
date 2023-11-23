@@ -14,15 +14,12 @@
     background-color: aliceblue;
 }
 
-body.dark {
+body.dark,
+body.dark .nav-mobile-icons {
     background-color:  #191919;
     transition: 0.5s;
 }
 
-body.dark .navigation,
-.nav-mobile-icons {
-    background: #191919;
-}
 
 body.dark .content,
 body.dark .tech-stack {
