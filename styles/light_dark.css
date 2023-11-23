@@ -10,16 +10,20 @@
     justify-content: center;
 }
 
-.light_dark.dark {
-    background-color: aliceblue;
-}
-
-body.dark,
-body.dark .nav-mobile-icons {
+body.dark {
     background-color:  #191919;
     transition: 0.5s;
 }
 
+body.dark .navigation {
+    background-color:  #191919;
+    transition: 0.5s;
+}
+
+body.dark .nav-mobile-icons {
+    background-color:  #191919;
+    transition: 0.5s;
+}
 
 body.dark .content,
 body.dark .tech-stack {

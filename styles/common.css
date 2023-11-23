@@ -50,7 +50,7 @@ body {
     background-color: #fdfafc;
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
     height: 90px;
-    margin-left: 79%;
+    margin-left: 76%;
     padding: 10px 17px;
     display: none;
     border-radius: 20px;
@@ -238,10 +238,14 @@ body {
     .container {
         max-width: 90%;
     }
+
+    .nav-mobile-icons {
+        margin-left: 76%;
+    }
 }
 
 @media (max-width: 400px) {
-    .navigation-link {
+    .navigation-link {  
         width: 18px;
     }
 }
@@ -275,7 +279,6 @@ body {
     .nav-mobile-icons {
         margin-top: 58px;
         background-color: #fdfafc;
-        position: fixed;
         margin-left: 50px;
     }   
 }
@@ -283,7 +286,6 @@ body {
 @media (max-width: 432px) {
     .nav-mobile-icons {
         margin-left: 75%;
-        position: fixed;
     }   
     
     .navigation {
