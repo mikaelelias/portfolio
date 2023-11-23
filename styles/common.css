@@ -273,12 +273,14 @@ body {
     .nav-mobile-icons {
         margin-top: 58px;
         background-color: #fdfafc;
+        position: fixed;
     }   
 }
 
 @media (max-width: 432px) {
     .nav-mobile-icons {
         margin-left: 75%;
+        position: fixed;
     }   
     
     .navigation {
