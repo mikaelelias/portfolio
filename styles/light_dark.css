@@ -8,6 +8,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    transition: 0.5s;
 }
 
 body.dark {
@@ -28,25 +29,30 @@ body.dark .nav-mobile-icons {
 body.dark .content,
 body.dark .tech-stack {
     color: #cccccc;
+    transition: 0.5s;
 }
 
 body.dark .technologies .txt-hidden {
     color: #cccccc;
+    transition: 0.5s;
 }
 
 body.dark footer,
 body.dark .link-footer,
 body.dark h1 {
     color: #cccccc;
+    transition: 0.5s;
 }
 
 body.dark .section-title {
     color: #cccccc;
+    transition: 0.5s;
 }
 
 body.dark .navigation-link-text,
 body.dark .section-description,
 body.dark .navigation-link-text-mobile {
     color: #a7a7a7;
+    transition: 0.5s;
 }
 
