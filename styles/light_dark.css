@@ -20,8 +20,9 @@ body.dark {
 }
 
 body.dark .navigation,
-.nav-mobile-icons {
+body.dark .nav-mobile-icons {
     background: #191919;
+    transition: 0.5s;
 }
 
 body.dark .content,
@@ -47,5 +48,6 @@ body.dark .navigation-link-text,
 body.dark .section-description,
 body.dark .navigation-link-text-mobile {
     color: #a7a7a7;
+    background-color:  #191919;
 }
 

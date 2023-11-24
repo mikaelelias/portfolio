@@ -47,13 +47,14 @@ body {
     font-weight: 500;
     line-height: 26px;
     margin-top: -130px;
-    background-color: #fdfafc;
+    background: #FFF;
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
     width: 20%;
     margin-left: 79%;
     padding: 10px 17px;
     display: none;    
     box-sizing: content-box;
+    border-radius: 10px 0 0 10px;
 }
 
 .navigation-link-text-mobile {
