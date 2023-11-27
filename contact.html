@@ -13,11 +13,7 @@
     <link rel="stylesheet" href="styles/light_dark.css">
     <script src="Js/modal_header.js" defer></script>
     <script src="Js/light_dark.js" defer></script>
-
-    <div class="gtranslate_wrapper"></div>
-    <script>window.gtranslateSettings = { "default_language": "en", "detect_browser_language": true, "languages": ["en", "pt", "fr", "es"], "wrapper_selector": ".gtranslate_wrapper", "flag_style": "3d" }</script>
-    <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
-
+    <script src="Js/translations.js" defer></script>
 </head>
 
 <body>
@@ -30,9 +26,9 @@
                 
                 <div class="navigation-header">
                     <div class="icons-navigation-text">
-                        <a class="navigation-link-text" href="index.html">Home</a>
-                        <a class="navigation-link-text" href="about.html">About</a>
-                        <a class="navigation-link-text" href="contact.html">Contact</a>
+                        <a class="navigation-link-text" href="index.html" data-translation-key="menuItem1">Home</a>
+                        <a class="navigation-link-text" href="about.html" data-translation-key="menuItem2">About</a>
+                        <a class="navigation-link-text" href="contact.html" data-translation-key="menuItem3">Contact</a>
                     </div>
 
                     <a class="navigation-link" href="https://github.com/mikaelelias"><img src="images/Vector.svg"
@@ -48,11 +44,12 @@
 
                     <a class="navigation-link-bi-list">
                         <img src="images/icons8-cardápio-50.png" class="bi-bi-list open-icon" alt="icon-mobile">
-
+                    
                         <div class="mobile-icon-menu">
                             <img src="images/icons8-excluir.svg" class="bi-bi-x-lg close-icon" alt="icon-mobile">
                         </div>
                     </a>
+                    <span class="language-button">en/pt</span>
                 </div>
             </nav>
 

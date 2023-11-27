@@ -76,7 +76,7 @@ body {
 
 .navigation-header {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 41px;
 }
 
@@ -165,6 +165,13 @@ body {
     font-size: 1.12rem;
     font-style: normal;
     letter-spacing: -1px;
+}
+
+.language-button{
+    cursor: pointer;
+}
+.language-button:hover  {
+    opacity: 0.5;
 }
 
 @media (max-width: 900px) {
