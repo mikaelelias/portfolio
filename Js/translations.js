@@ -7,12 +7,16 @@ const translations = {
         menuItem1: "Home",
         menuItem2: "About",
         menuItem3: "Contact",
+        titleTechnologies: "My Tech Stack",
+        descriptionTechnologies: "Technologies I've been working with recently",
     },
     pt: {
         title: `Olá 👋, <br> Meu nome é <span class="highlight">Mikael Elias</span><br>e eu desenvolvo<br>coisas para a Web.`,
         menuItem1: "Home",
         menuItem2: "Sobre",
         menuItem3: "Contato",
+        titleTechnologies: "Minhas Tecnologias",
+        descriptionTechnologies: "Tecnologias com as quais tenho trabalhado recentemente",
     }
 }
 
