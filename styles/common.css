@@ -204,7 +204,7 @@ body {
 
 }
 
-@media (max-width: 640px) {
+@media (max-width: 673px) {
     .navigation {
         justify-content: space-between;
         margin-bottom: 136px;
@@ -215,6 +215,7 @@ body {
     }
 
     .navigation-link-bi-list {
+        margin-right: 10px;
         display: block;
     }
 
