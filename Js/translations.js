@@ -18,6 +18,15 @@ const translations = {
         menuItem2Footer: "About",
         menuItem3Footer: "Contact",
         /*copyright: "Designed by Pavan MG and built by Mikael Elias",*/
+
+        titleAboutme: "About Me",
+        descriptionAboutme: "A passionate technology enthusiast and front-end developer dedicated to crafting engaging and intuitive user experiences. With a background in Information Technology, I embarked on my journey as a developer in early 2022 and have been working on various personal projects to expand my knowledge ever since. I firmly believe that commitment, consistency, and confidence form the foundation of a good developer, and it's upon these pillars that I build my daily growth.",
+        titleExperience:"My Learning Strategy",
+        company:"I believe that the most effective method for learning is to build a real project from the ground up. This approach allows me to apply and solidify the concepts I've acquired from different courses. One of the projects that fills me with pride is my portfolio. Creating it provided me with a chance to truly challenge myself and surmount numerous obstacles",
+        titleEducation:"Education",
+        functionWork: "Information Technology",    
+        
+        contactInformationTitle:"For any questions please mail us:"
     },
     pt: {
         title: `Olá 👋, <br> Meu nome é <span class="highlight">Mikael Elias</span><br>e eu desenvolvo<br>coisas para a Web.`,
@@ -35,14 +44,25 @@ const translations = {
         menuItem2Footer: "Sobre",
         menuItem3Footer: "Contato",
         /*copyright: "Projetado por Pavan MG e construído por Mikael Elias",*/
+
+        titleAboutme: "Sobre mim",
+        descriptionAboutme: "Um entusiasta apaixonado por tecnologia e desenvolvedor front-end dedicado a criar conteúdo envolvente e experiências de usuário intuitivas. Com formação em Tecnologia da Informação, embarquei em minha jornada como um desenvolvedor no início de 2022 e tenho trabalhado em vários projetos pessoais para expandir meu conhecimento desde então. Acredito firmemente que o compromisso, a consistência e a confiança constituem a base de uma bom desenvolvedor, e é sobre esses pilares que construo meu crescimento diário.",
+        titleExperience:"Minha estratégia de aprendizagem",
+        company:"Acredito que o método mais eficaz de aprendizagem é construir uma verdadeira projeto desde o início. Esta abordagem permite-me aplicar e solidificar os conceitos que desenvolvi adquiridos em diferentes cursos. Um dos projetos que me enche de orgulho é o meu portfólio. Criá-lo me deu a chance de realmente me desafiar e superar numerosos obstáculos",
+        titleEducation:"Educação",
+        functionWork: "Tecnologia da Informação",
+
+        contactInformationTitle: "Para qualquer dúvida, envie-me um email:"              
     }
 }
 
 function updateLanguage() {
     Object.keys(translations[getCurrentLang()]).forEach(key => {
-        const element = document.querySelector(`[data-translation-key=${key}]`);
-        if (!element) return;
-        element.innerHTML = translations[getCurrentLang()][key];
+        const elements = [...document.querySelectorAll(`[data-translation-key=${key}]`)];
+        if (!elements.length) return;
+        elements.forEach((el) => {
+            el.innerHTML = translations[getCurrentLang()][key];
+        })
     })
 }
 
