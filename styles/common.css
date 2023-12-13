@@ -247,6 +247,12 @@ body {
     }
 }
 
+@media (max-width: 471px) {
+    .logo-wrap .logo-img {
+        width: 85px;
+    }
+}
+
 @media (max-width: 400px) {
     .navigation-link {
         width: 18px;
@@ -293,4 +299,3 @@ body {
         margin-top: -25px;
     }
 }
-
