@@ -43,7 +43,7 @@ const translations = {
         menuItem1Footer: "Home",
         menuItem2Footer: "Sobre",
         menuItem3Footer: "Contato",
-        /*copyright: "Projetado por Pavan MG e construído por Mikael Elias",*/
+        copyright: "Projetado por Pavan MG e construído por Mikael Elias",*/
 
         titleAboutme: "Sobre mim",
         descriptionAboutme: "Um entusiasta apaixonado por tecnologia e desenvolvedor front-end dedicado a criar conteúdo envolvente e experiências de usuário intuitivas. Com formação em Tecnologia da Informação, embarquei em minha jornada como um desenvolvedor no início de 2022 e tenho trabalhado em vários projetos pessoais para expandir meu conhecimento desde então. Acredito firmemente que o compromisso, a consistência e a confiança constituem a base de uma bom desenvolvedor, e é sobre esses pilares que construo meu crescimento diário.",
