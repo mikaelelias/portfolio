@@ -1,4 +1,5 @@
-const languageButton = document.querySelector('.language-button');
+const languageButton = document.querySelector('.nav-mobile-icons .language-button');
+
 
 const translations = {
     en: {
