@@ -1,4 +1,4 @@
-const languageButton = document.querySelector('.language-button');
+const languageButton = document.querySelector('.language-button, .activations .language-button');
 
 
 const translations = {
