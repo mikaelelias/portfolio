@@ -1,6 +1,5 @@
 const languageButton = document.querySelector('.language-button, .activations .language-button');
 
-
 const translations = {
     en: {
         title: `Hi 👋, <br> My name is <br><span class="highlight">Mikael Elias</span><br>
