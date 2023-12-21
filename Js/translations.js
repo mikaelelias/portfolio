@@ -1,4 +1,4 @@
-const languageButton = document.querySelector('.language-button, .activations .language-button');
+const languageButtons = document.querySelectorAll('.language-button, .activations .language-button');
 
 const translations = {
     en: {
@@ -57,30 +57,32 @@ const translations = {
         contactInformationTitle: "Para qualquer dúvida, envie-me um email:",              
     }
 }
-
-function updateLanguage() {
+    
+    function updateLanguage() {
     Object.keys(translations[getCurrentLang()]).forEach(key => {
         const elements = [...document.querySelectorAll(`[data-translation-key=${key}]`)];
         if (!elements.length) return;
         elements.forEach((el) => {
             el.innerHTML = translations[getCurrentLang()][key];
-        })
-    })
+        });
+    });
 }
 
 function getCurrentLang() {
-    return localStorage.getItem("lang") ?? "en"
+    return localStorage.getItem('lang') ?? 'en';
 }
 
-function toogleLanguage() {
-    localStorage.setItem("lang", getCurrentLang() === 'en' ? 'pt' : 'en');
+function toggleLanguage() {
+    localStorage.setItem('lang', getCurrentLang() === 'en' ? 'pt' : 'en');
 }
 
 function onClickLanguageButton() {
-    toogleLanguage();
+    toggleLanguage();
     updateLanguage();
 }
 
-languageButton.addEventListener('click', onClickLanguageButton)
+languageButtons.forEach(button => {
+    button.addEventListener('click', onClickLanguageButton);
+});
 
 updateLanguage();
