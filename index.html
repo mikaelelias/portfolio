@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/light_dark.css">
     <script src="Js/modal_header.js" defer></script>
     <script src="Js/light_dark.js" defer></script>
+    <script src="Js/translations.js" defer></script>
 </head>
 
 <body>
@@ -25,9 +26,9 @@
 
                 <div class="navigation-header">
                     <div class="icons-navigation-text">
-                        <a class="navigation-link-text" href="index.html">Home</a>
-                        <a class="navigation-link-text" href="about.html">About</a>
-                        <a class="navigation-link-text" href="contact.html">Contact</a>
+                        <a class="navigation-link-text" href="index.html" data-translation-key="menuItem1">Home</a>
+                        <a class="navigation-link-text" href="about.html" data-translation-key="menuItem2">About</a>
+                        <a class="navigation-link-text" href="contact.html" data-translation-key="menuItem3">Contact</a>
                     </div>
 
                     <a class="navigation-link" href="https://github.com/mikaelelias"><img src="images/Vector.svg"
@@ -43,11 +44,12 @@
 
                     <a class="navigation-link-bi-list">
                         <img src="images/icons8-cardápio-50.png" class="bi-bi-list open-icon" alt="icon-mobile">
-
+                    
                         <div class="mobile-icon-menu">
                             <img src="images/icons8-excluir.svg" class="bi-bi-x-lg close-icon" alt="icon-mobile">
                         </div>
                     </a>
+                    <span class="language-button">en/pt</span>
                 </div>
             </nav>
 
@@ -55,11 +57,15 @@
                 <a class="navigation-link-text-mobile" href="index.html">Home</a>
                 <a class="navigation-link-text-mobile" href="about.html">About</a>
                 <a class="navigation-link-text-mobile" href="contact.html">Contact</a>
+                <div class="activations">
+                    <span class="language-button">en/pt</span>
+                    <img class="icon-moon" src="images/icons8-dia-e-noite-50 (1).png" alt="icon-dark-mode">
+                </div>
             </div>
-
         </header>
+
         <main class="presentation">
-            <h1 class="text">Hi 👋, <br> My name is <br><span class="highlight">Mikael Elias</span><br>
+            <h1 class="text" data-translation-key="title">Hi 👋, <br> My name is <br><span class="highlight">Mikael Elias</span><br>
                 and I build things for web
             </h1>
             <div class="profile-wrap">
@@ -68,8 +74,8 @@
         </main>
 
         <section class="technologies">
-            <h2 class="section-title">My Tech Stack</h2>
-            <p class="section-description">Technologies I've been working with recently</p>
+            <h2 class="section-title" data-translation-key="titleTechnologies">My Tech Stack</h2>
+            <p class="section-description" data-translation-key="descriptionTechnologies">Technologies I've been working with recently</p>
             <div class="icons-tech">
                 <div class="icon-box">
                     <img src="images/vscode-icons_file-type-html.svg" alt="logo-html">
@@ -108,22 +114,22 @@
         </section>
 
         <section class="projects">
-            <h2 class="section-title">Projects</h2>
-            <p class="section-description">Things I've built so far</p>
+            <h2 class="section-title" data-translation-key="sectionTitleProjects">Projects</h2>
+            <p class="section-description" data-translation-key="sectionDescriptionProjects">Things I've built so far</p>
 
             <div class="wrap-cards">
                 <div class="card">
                     <div class="img-wrap">
                     </div>
                     <div class="content">
-                        <h3 class="title">Project Tile goes here</h3>
-                        <p class="discription">
+                        <h3 class="title" data-translation-key="cardProjectTitle">Project Tile goes here</h3>
+                        <p class="discription" data-translation-key="cardProjectTitleDescription">
                             This is sample project description random things are here in description This is sample
                             project
                             lorem ipsum generator for dummy content
                         </p>
 
-                        <p class="tech-stack"><b>Tech stack:</b> HTML, JavaScript, SASS, React</p>
+                        <p class="tech-stack" data-translation-key="techStack"><b>Tech stack:</b> HTML, JavaScript, SASS, React</p>
 
                         <div class="links">
                             <div class="link">
@@ -144,14 +150,14 @@
 
                     </div>
                     <div class="content">
-                        <h3 class="title">Project Tile goes here</h3>
-                        <p class="discription">
+                        <h3 class="title" data-translation-key="cardProjectTitle">Project Tile goes here</h3>
+                        <p class="discription" data-translation-key="cardProjectTitleDescription">
                             This is sample project description random things are here in description This is sample
                             project
                             lorem ipsum generator for dummy content
                         </p>
 
-                        <p class="tech-stack"><b>Tech stack:</b> HTML, JavaScript, SASS, React</p>
+                        <p class="tech-stack" data-translation-key="techStack"><b>Tech stack:</b> HTML, JavaScript, SASS, React</p>
 
                         <div class="links">
                             <div class="link">
@@ -172,14 +178,14 @@
 
                     </div>
                     <div class="content">
-                        <h3 class="title">Project Tile goes here</h3>
-                        <p class="discription">
+                        <h3 class="title" data-translation-key="cardProjectTitle">Project Tile goes here</h3>
+                        <p class="discription" data-translation-key="cardProjectTitleDescription">
                             This is sample project description random things are here in description This is sample
                             project
                             lorem ipsum generator for dummy content
                         </p>
 
-                        <p class="tech-stack"><b>Tech stack:</b> HTML, JavaScript, SASS, React</p>
+                        <p class="tech-stack" data-translation-key="techStack"><b>Tech stack:</b> HTML, JavaScript, SASS, React</p>
 
                         <div class="links">
                             <div class="link">
@@ -200,14 +206,14 @@
 
                     </div>
                     <div class="content">
-                        <h3 class="title">Project Tile goes here</h3>
-                        <p class="discription">
+                        <h3 class="title" data-translation-key="cardProjectTitle">Project Tile goes here</h3>
+                        <p class="discription" data-translation-key="cardProjectTitleDescription">
                             This is sample project description random things are here in description This is sample
                             project
                             lorem ipsum generator for dummy content
                         </p>
 
-                        <p class="tech-stack"><b>Tech stack:</b> HTML, JavaScript, SASS, React</p>
+                        <p class="tech-stack" data-translation-key="techStack"><b>Tech stack:</b> HTML, JavaScript, SASS, React</p>
 
                         <div class="links">
                             <div class="link">
@@ -228,14 +234,14 @@
 
                     </div>
                     <div class="content">
-                        <h3 class="title">Project Tile goes here</h3>
-                        <p class="discription">
+                        <h3 class="title" data-translation-key="cardProjectTitle">Project Tile goes here</h3>
+                        <p class="discription" data-translation-key="cardProjectTitleDescription">
                             This is sample project description random things are here in description This is sample
                             project
                             lorem ipsum generator for dummy content
                         </p>
 
-                        <p class="tech-stack"><b>Tech stack:</b> HTML, JavaScript, SASS, React</p>
+                        <p class="tech-stack" data-translation-key="techStack"><b>Tech stack:</b> HTML, JavaScript, SASS, React</p>
 
                         <div class="links">
                             <div class="link">
@@ -256,14 +262,14 @@
 
                     </div>
                     <div class="content">
-                        <h3 class="title">Project Tile goes here</h3>
-                        <p class="discription">
+                        <h3 class="title" data-translation-key="cardProjectTitle">Project Tile goes here</h3>
+                        <p class="discription" data-translation-key="cardProjectTitleDescription">
                             This is sample project description random things are here in description This is sample
                             project
                             lorem ipsum generator for dummy content
                         </p>
 
-                        <p class="tech-stack"><b>Tech stack:</b> HTML, JavaScript, SASS, React</p>
+                        <p class="tech-stack" data-translation-key="techStack"><b>Tech stack:</b> HTML, JavaScript, SASS, React</p>
 
                         <div class="links">
                             <div class="link">
@@ -311,14 +317,13 @@
 
             <div class="navigation-footer">
                 <nav class="navigation-end">
-                    <a class="link-footer" href="index.html">Home</a>
-                    <a class="link-footer" href="about.html">About</a>
-                    <a class="link-footer" href="contact.html">Contact</a>
+                    <a class="link-footer" href="index.html" data-translation-key="menuItem1Footer">Home</a>
+                    <a class="link-footer" href="about.html" data-translation-key="menuItem2Footer">About</a>
+                    <a class="link-footer" href="contact.html" data-translation-key="menuItem3Footer">Contact</a>
                 </nav>
 
                 <div class="copyright">
-                    <p>Designed by <a href="https://github.com/pavanmg007" class="highlight-footer" href=>Pavan MG</a>
-                        and built by <span class="highlight-footer">Mikael Elias</span></p>
+                    <p data-translation-key="copyright">Designed by <a href="https://github.com/pavanmg007" class="highlight-footer" href=>Pavan MG </a> and built by <span class="highlight-footer">Mikael Elias</span></p>
                 </div>
             </div>
         </footer>

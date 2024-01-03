@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,700&display=swap');
 
 * {
@@ -34,6 +33,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 26px;
+    z-index: 1;
 }
 
 .nav-mobile-icons {
@@ -52,7 +52,7 @@ body {
     width: 20%;
     margin-left: 79%;
     padding: 10px 17px;
-    display: none;    
+    display: none;
     box-sizing: content-box;
     border-radius: 10px 0 0 10px;
 }
@@ -76,7 +76,7 @@ body {
 
 .navigation-header {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 41px;
 }
 
@@ -167,6 +167,14 @@ body {
     letter-spacing: -1px;
 }
 
+.language-button {
+    cursor: pointer;
+}
+
+.language-button:hover {
+    opacity: 0.5;
+}
+
 @media (max-width: 900px) {
     .contacts-footer {
         flex-direction: column;
@@ -194,20 +202,29 @@ body {
         display: flex;
         align-items: center;
     }
-
 }
 
-@media (max-width: 640px) {
+@media (max-width: 673px) {
     .navigation {
         justify-content: space-between;
         margin-bottom: 136px;
+        z-index: 1;
     }
 
     .navigation-link-text {
         display: none;
     }
 
+    .language-button {
+        visibility: hidden;
+    }
+
+    .light_dark .icon-moon {
+        visibility: hidden;
+    }
+
     .navigation-link-bi-list {
+        margin-right: 10px;
         display: block;
     }
 
@@ -228,8 +245,34 @@ body {
         width: 30px;
     }
 
-    .icon-moon {
-        margin-right: 20px
+    .nav-mobile-icons {
+        position: absolute;
+        top: 240px;
+        right: 0;
+        z-index: 2;
+        position: fixed;
+    }
+
+    .navigation-link-bi-list {
+        margin-right: -30px;
+    }
+
+    .activations {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .nav-mobile-icons .language-button {
+        visibility: visible;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .nav-mobile-icons .icon-moon {
+        width: 20px;
+        margin-top: 10px;
     }
 }
 
@@ -239,13 +282,11 @@ body {
     }
 }
 
-@media (max-width: 400px) {
-    .navigation-link {
-        width: 18px;
-    }
-}
-
 @media (max-width: 432px) {
+    .profile-wrap {
+        margin-top: 250px;
+    }
+
     .navigation {
         position: fixed;
         padding: 10px;
@@ -254,35 +295,18 @@ body {
         right: 0;
         justify-content: space-between;
         background: #fdfafc;
-        box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
-        z-index: 2;
-        width: 100%;
-    }
-
-    .container {
-        padding-top: 80px;
-    }
-
-    .presentation {
-        margin-top: 90px;
-    }
-
-    .navigation-end {
-        display: none;
-    }
-
-    .nav-mobile-icons {
-        margin-top: 58px;
-    }   
-}
-
-@media (max-width: 432px) {
-    .nav-mobile-icons {
-        margin-left: 75%;
-    }   
-    
-    .navigation {
-        margin-top: -25px;
+        box-shadow: 0px 3px 5px 0px rgba(0, 0, 0)
     }
 }
 
+@media (max-width: 471px) {
+    .logo-wrap .logo-img {
+        width: 85px;
+    }
+}
+
+@media (max-width: 400px) {
+    .navigation-link {
+        width: 18px;
+    }
+}
