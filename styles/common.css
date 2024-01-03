@@ -250,6 +250,7 @@ body {
         top: 240px;
         right: 0;
         z-index: 2;
+        position: fixed;
     }
 
     .navigation-link-bi-list {
@@ -285,6 +286,17 @@ body {
     .profile-wrap {
         margin-top: 250px;
     }
+
+    .navigation {
+        position: fixed;
+        padding: 10px;
+        top: 0;
+        left: 0;
+        right: 0;
+        justify-content: space-between;
+        background: #fdfafc;
+        box-shadow: 0px 3px 5px 0px rgba(0, 0, 0)
+    }
 }
 
 @media (max-width: 471px) {
@@ -296,18 +308,5 @@ body {
 @media (max-width: 400px) {
     .navigation-link {
         width: 18px;
-    }
-}
-
-@media (max-width: 432px) {
-    .navigation {
-        position: fixed;
-        padding: 10px;
-        top: 0;
-        left: 0;
-        right: 0;
-        justify-content: space-between;
-        background: #fdfafc;
-        box-shadow: 0px 3px 5px 0px rgba(0, 0, 0)
     }
 }
