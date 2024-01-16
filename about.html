@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/light_dark.css">
     <script src="Js/modal_header.js" defer></script>
-    <script src="Js/light_dark.js" defer></script>
+    <script src="Js/light_dark.js" defer></script>  
+    <script src="Js/translations.js" defer></script>
+
 </head>
 
 <body>
@@ -25,9 +27,9 @@
 
                 <div class="navigation-header">
                     <div class="icons-navigation-text">
-                        <a class="navigation-link-text" href="index.html">Home</a>
-                        <a class="navigation-link-text" href="about.html">About</a>
-                        <a class="navigation-link-text" href="contact.html">Contact</a>
+                        <a class="navigation-link-text" href="index.html" data-translation-key="menuItem1">Home</a>
+                        <a class="navigation-link-text" href="about.html" data-translation-key="menuItem2">About</a>
+                        <a class="navigation-link-text" href="contact.html" data-translation-key="menuItem3">Contact</a>
                     </div>
 
                     <a class="navigation-link" href="https://github.com/mikaelelias"><img src="images/Vector.svg"
@@ -43,11 +45,12 @@
 
                     <a class="navigation-link-bi-list">
                         <img src="images/icons8-cardápio-50.png" class="bi-bi-list open-icon" alt="icon-mobile">
-
+                    
                         <div class="mobile-icon-menu">
                             <img src="images/icons8-excluir.svg" class="bi-bi-x-lg close-icon" alt="icon-mobile">
                         </div>
                     </a>
+                    <span class="language-button">en/pt</span>
                 </div>
             </nav>
 
@@ -55,14 +58,18 @@
                 <a class="navigation-link-text-mobile" href="index.html">Home</a>
                 <a class="navigation-link-text-mobile" href="about.html">About</a>
                 <a class="navigation-link-text-mobile" href="contact.html">Contact</a>
+                <div class="activations">
+                    <span class="language-button">en/pt</span>
+                    <img class="icon-moon" src="images/icons8-dia-e-noite-50 (1).png" alt="icon-dark-mode">
+                </div>
             </div>
 
         </header>
 
         <section class="container-about">
             <div class="about-me">
-                <h1>About Me</h1>
-                <p>A passionate technology enthusiast and front-end developer dedicated to crafting engaging and
+                <h1 data-translation-key="titleAboutme">About Me</h1>
+                <p data-translation-key="descriptionAboutme">A passionate technology enthusiast and front-end developer dedicated to crafting engaging and
                     intuitive user experiences. With a background in Information Technology, I embarked on my journey as
                     a developer in early 2022 and have been working on various personal projects to expand my knowledge
                     ever since. I firmly believe that commitment, consistency, and confidence form the foundation of a
@@ -70,10 +77,14 @@
             </div>
 
             <div class="experience">
-                <h1>My Learning Strategy</h1>
+                <h1 data-translation-key="titleExperience">My Learning Strategy</h1>
                 <div class="companies">
                     <div class="cx1">
-                        <p class="company">I believe that the most effective method for learning is to build a real project from the ground up. This approach allows me to apply and solidify the concepts I've acquired from different courses. One of the projects that fills me with pride is my portfolio. Creating it provided me with a chance to truly challenge myself and surmount numerous obstacles.</p>
+                        <p class="company" data-translation-key="company">I believe that the most effective method for learning is to build a real
+                            project from the ground up. This approach allows me to apply and solidify the concepts I've
+                            acquired from different courses. One of the projects that fills me with pride is my
+                            portfolio. Creating it provided me with a chance to truly challenge myself and surmount
+                            numerous obstacles.</p>
                     </div>
                 </div>
             </div>
@@ -83,9 +94,9 @@
             </div>
 
             <div class="education">
-                <h1>Education</h1>
+                <h1 data-translation-key="titleEducation">Education</h1>
                 <div class="function-work">
-                    <h2>Information Technology</h2>
+                    <h2 data-translation-key="functionWork">Information Technology</h2>
                 </div>
 
                 <div class="companies">
@@ -95,7 +106,7 @@
                     </div>
                     <div class="cx2">
                         <img src="images/gg_calendar-dates.svg" alt="logo-calendar">
-                        <p class="year">Fev 2013 - Dez 2014</p>
+                        <p class="year" data-translation-key="year">Feb 2013 - Dec 2014</p>
                     </div>
                 </div>
             </div>
@@ -128,9 +139,9 @@
 
             <div class="navigation-footer">
                 <nav class="navigation-end">
-                    <a class="link-footer" href="index.html">Home</a>
-                    <a class="link-footer" href="about.html">About</a>
-                    <a class="link-footer" href="contact.html">Contact</a>
+                    <a class="link-footer" href="index.html" data-translation-key="menuItem1Footer">Home</a>
+                    <a class="link-footer" href="about.html" data-translation-key="menuItem2Footer">About</a>
+                    <a class="link-footer" href="contact.html" data-translation-key="menuItem3Footer">Contact</a>
                 </nav>
 
                 <div class="copyright">
@@ -141,4 +152,5 @@
         </footer>
     </div>
 </body>
+
 </html>

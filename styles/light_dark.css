@@ -10,44 +10,47 @@
     justify-content: center;
 }
 
-.light_dark.dark {
-    background-color: aliceblue;
-}
-
 body.dark {
-    background-color:  #191919;
-    transition: 0.5s;
+    background-color: #191919;
+    transition: background-color 0.5s;
 }
 
 body.dark .navigation,
 body.dark .nav-mobile-icons {
     background: #191919;
-    transition: 0.5s;
+    transition: background 0.5s;
 }
 
 body.dark .content,
-body.dark .tech-stack {
-    color: #cccccc;
-}
-
-body.dark .technologies .txt-hidden {
-    color: #cccccc;
-}
-
+body.dark .tech-stack,
+body.dark .technologies .txt-hidden,
 body.dark footer,
 body.dark .link-footer,
-body.dark h1 {
+body.dark h1,
+body.dark .section-title,
+body.dark .navigation-link-text,
+body.dark .section-description,
+body.dark .navigation-link-text-mobile {
     color: #cccccc;
+    transition: color 0.5s, background-color 0.5s;
 }
 
-body.dark .section-title {
-    color: #cccccc;
+body.dark .technologies .txt-hidden,
+body.dark footer,
+body.dark .link-footer,
+body.dark h1,
+body.dark .section-title,
+body.dark .navigation-link-text,
+body.dark .section-description,
+body.dark .navigation-link-text-mobile {
+    transition: color 0.5s, background-color 0.5s;
 }
 
 body.dark .navigation-link-text,
 body.dark .section-description,
-body.dark .navigation-link-text-mobile {
+body.dark .navigation-link-text-mobile,
+body.dark .language-button {
     color: #a7a7a7;
-    background-color:  #191919;
+    background-color: #191919;
 }
 
