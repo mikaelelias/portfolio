@@ -25,8 +25,6 @@ Technologies and Tools:
 HTML5 and CSS3: Used for content structuring and styling, following best practices and standards.
 JavaScript (ES6+): Implements interactivity and functionalities, with a focus on code modularity.
 Sass: CSS preprocessor used to enhance style maintainability and extensibility.
-Webpack: Used for bundling and optimizing project resources, streamlining the development process.
-Babel: Ensures compatibility with older browsers by transpiling modern JavaScript code.
 FontAwesome and Google Fonts: External libraries for icons and fonts, seamlessly integrated into the project.
 
 Responsiveness and Design
