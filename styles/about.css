@@ -112,10 +112,10 @@
     .navigation-footer {
         justify-content: center;
     }
-}
 
-@media(max-width: 380px) {
     .navigation-end {
-
+        display: flex;
+        margin-left: 20px;
     }
 }
+
