@@ -241,16 +241,23 @@
 }
 
 @media (max-width: 432px) {
-    .navigation-end {
-        display: none;
-    }
-
     .wrap-cards {
         max-width: 100%;
     }
 
     .presentation {
         margin-bottom: 5px;
+    }
+
+    @media (max-width: 432px) {
+        .text-contact {
+            margin-top: 190px;
+        }
+
+        .navigation-end {
+            display: flex;
+            margin-left: 20px;
+        }
     }
 }
 

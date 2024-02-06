@@ -61,4 +61,9 @@
     .text-contact {
         margin-top: 190px;
     }
+
+    .navigation-end {
+        display: flex;
+        margin-left: 20px;
+    }
 }
