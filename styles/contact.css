@@ -59,6 +59,11 @@
 
 @media (max-width: 432px) {
     .text-contact {
-        margin-top: 100px;
+        margin-top: 190px;
+    }
+
+    .navigation-end {
+        display: flex;
+        margin-left: 20px;
     }
 }
